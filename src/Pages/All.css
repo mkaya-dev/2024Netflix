@@ -1,0 +1,132 @@
+/* home alanı ekran acıldıgı an */
+.Alan{
+    margin-left: 220px;
+    margin-top: 270px;
+}
+.kutu1{
+    width: 200px;
+    height: 200px;
+}
+
+.kutu1:hover{
+    transform:scale(1.1);
+    border-top: 5px solid red;
+    transition: 1s;
+}
+.kutu2{
+    width: 200px;
+    height: 200px;
+}
+.kutu2:hover{
+    transform:scale(1.1);
+    border-top: 5px solid rebeccapurple;
+    transition: 1s;
+}
+.kutu3{
+    width: 200px;
+    height: 200px;
+}
+.kutu3:hover{
+    transform:scale(1.1);
+    border-top: 5px solid blue;
+    transition: 1s;
+}
+.kutu4{
+    width: 200px;
+    height: 200px;
+}
+.kutu4:hover{
+    transform:scale(1.1);
+    border-top: 5px solid pink;
+    transition: 1s;
+}
+.kutu5{
+    width: 200px;
+    height: 200px;
+}
+.kutu5:hover{
+    transform:scale(1.1);
+    border-top: 5px solid orange;
+    transition: 1s;
+}
+
+/* navbar */
+
+nav{
+    justify-content:start;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding-top: 14px;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+
+li{
+    float: left;
+    list-style-type: none;
+    margin: 6px;
+}
+
+/* ana renk */
+
+body{
+    background-color: black;
+    color: #c4c4c2;
+}
+
+/* login */
+
+
+.profilDıs{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    margin: auto;
+}
+
+.profilIc{
+    padding: 20px;
+}
+
+
+
+/* ----- Gırıs */
+
+.sol{
+    float: left;
+}
+
+.sag{
+    float: right;
+}
+
+.ekran1{
+    width: 837px;
+    height: 600px;
+    background-color: aquamarine;
+}
+
+.ekran2{
+    width: 837px;
+    height: 600px;
+    background-color: antiquewhite;
+}
+
+/* alt navbar */
+
+.altNavbar{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.altNavbarIc{
+    padding: 100px;
+    margin-left: 180px;
+}
+
+ul{
+    float: left;
+    
+}
